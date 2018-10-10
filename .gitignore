@@ -2,6 +2,8 @@
 # Distribution / packaging
 test/
 data/liveproxy.txt
+.pytest_cache/*
 *.tmp
 report/2018*
 *.ini
+*.egg-info
