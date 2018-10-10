@@ -10,9 +10,9 @@ RUN apt-get update && \
 COPY . /usr/local/src/BruteforceHTTP
 
 RUN cd /usr/local/src/BruteforceHTTP && \
-    pip3 install -r requirements.txt && \
-    python3 setup.py install
+    pip install -r requirements.txt && \
+    python setup.py install
 
 VOLUME ["/app"]
 WORKDIR /app
-ENTRYPOINT ["md2pdf"]
+ENTRYPOINT ["main"]
