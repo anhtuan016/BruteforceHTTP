@@ -1,7 +1,7 @@
 *.pyc
 # Distribution / packaging
 test/
-test*
 data/liveproxy.txt
 *.tmp
 report/2018*
+*.ini
