@@ -1,8 +1,9 @@
 import data, re
+import mechanize
 from core import actions, utils
 
 def startBrowser():
-	import mechanize
+	
 	browser = mechanize.Browser()
 	browser.set_handle_robots(False)
 	browser.set_handle_referer(True)
